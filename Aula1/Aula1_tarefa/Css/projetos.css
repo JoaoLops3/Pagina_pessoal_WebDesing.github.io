@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(to bottom, #00ffe1, #F7F7F7);
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+} 
+nav {
+    background-color: #333333;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Aula1_tarefa/img/fotoh1.jpg');
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+} 
+nav li {
+    margin-right: 20px;
+}
+nav a {
+    color: #00ffe1;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+nav a:hover {
+    color: #f8f8f8;
+}
+.titulo {
+    border: 1px solid #ccc;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.paragrafo {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
